@@ -329,4 +329,4 @@ function activateModal() {
 		return false;
 	};
 	addEvent(form_to_submit, 'submit', form_submit);
-};
+}
