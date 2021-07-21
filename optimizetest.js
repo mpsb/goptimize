@@ -47,7 +47,7 @@ window._load_script = function(url, callback) {
 	}
 	head.appendChild(script);
 };
-window.activateModal = function() {
+activateModal = function() {
 	if (window.location.search.search("excludeform") !== -1) return false;
 	var getCookie = function(name) {
 		var match = document.cookie.match(new RegExp('(^|; )' + name + '=([^;]+)'));
