@@ -48,7 +48,7 @@ window._load_script = function(url, callback) {
 	}
 	head.appendChild(script);
 };
-(window._activate_modal = function() {
+window._activate_modal = function() {
 	if (window.location.search.search("excludeform") !== -1) return false;
 	var getCookie = function(name) {
 		var match = document.cookie.match(new RegExp('(^|; )' + name + '=([^;]+)'));
@@ -330,4 +330,4 @@ window._load_script = function(url, callback) {
 		return false;
 	};
 	addEvent(form_to_submit, 'submit', form_submit);
-})();
+};
