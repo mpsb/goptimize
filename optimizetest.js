@@ -1,3 +1,4 @@
+console.log('optimizetest.js is loaded.');
 window.cfields = [];
 window._show_thank_you = function(id, message, trackcmp_url, email) {
 	var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');
